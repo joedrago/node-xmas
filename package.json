@@ -1,0 +1,33 @@
+{
+  "name": "xmas",
+  "description": "The Christmas Thing",
+  "keywords": [
+    "christmas",
+    "presents",
+    "email"
+  ],
+  "author": "Joe Drago",
+  "version": "0.0.1",
+  "license": "BSL-1.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+    "xmas": "./bin/xmas"
+  },
+  "homepage": "https://github.com/joedrago/node-xmas",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joedrago/node-xmas.git"
+  },
+  "scripts": {
+    "build": "cake build"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.3"
+  },
+  "dependencies": {
+    "minimist": "1.2.0",
+    "nodemailer": "1.10.0"
+  }
+}
